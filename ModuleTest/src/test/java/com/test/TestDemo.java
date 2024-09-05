@@ -15,6 +15,10 @@ public class TestDemo {
 		options.addArguments("--remote-allow-origins=*");
 		WebDriver driver = new ChromeDriver(options);
 		
+		driver.manage().window().maximize();
+		
+		Thread.sleep(2000);
+		
 		driver.get("https://www.youtube.com");
 		
 		Thread.sleep(3000);
@@ -28,6 +32,8 @@ public class TestDemo {
 		Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("//yt-formatted-string[@class=\"style-scope ytd-video-renderer\"]")).click();
+		
+		System.out.println("Test case is passed");
 	}
 	
 }
