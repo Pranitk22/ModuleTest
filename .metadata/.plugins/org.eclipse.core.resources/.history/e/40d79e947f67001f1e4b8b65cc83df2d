@@ -1,0 +1,11 @@
+package com.diag;
+
+public class TestLogic {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("WebDriver.chrome.driver", "E:\\Drivers\\chromedriver-win64\\chromedriver.exe");
+			
+		
+	}
+}

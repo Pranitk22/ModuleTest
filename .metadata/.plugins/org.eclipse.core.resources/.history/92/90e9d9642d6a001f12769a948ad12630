@@ -1,0 +1,24 @@
+package com.test;
+
+import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import com.github.dockerjava.api.model.Driver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class LoginDemo {
+
+	public static void main(String[] args) {
+		
+	System.setProperty("WebDriver.chrome.driver", "E:\\Drivers\\chromedriver-win64.exe");	
+	WebDriver driver = new ChromeDriver();
+	
+	driver.get("https://demo.opencart.com");
+	
+	}
+		
+}
