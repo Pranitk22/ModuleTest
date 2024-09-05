@@ -23,20 +23,6 @@ public class LoginDemo {
 	options.addArguments("--remote-allow-origins=*");
 	WebDriver driver = new ChromeDriver(options);
 	
-	//driver.get("https://www.facebook.com");
-	
-	//Thread.sleep(4000);
-	
-	//driver.findElement(By.xpath("//input[@name='email']")).sendKeys("Pranit.Konde07");
-	
-	//Thread.sleep(2000);
-	
-	//driver.findElement(By.xpath("//input[@name='pass']")).sendKeys("Panu@9097");
-	
-	//Thread.sleep(4000);
-	
-	//driver.findElement(By.xpath("//button[@name='login']")).click();
-	
 	driver.get("https://www.youtube.com");
 	
 	Thread.sleep(3000);
